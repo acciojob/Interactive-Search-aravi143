@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+.search{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:300px;;
+	background:blue;
+	transition: background-color 0.3s ease-in-out;
+}
+.search.active{
+	background-color: #e5e5e5;
+}
